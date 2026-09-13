@@ -1,5 +1,5 @@
 # Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments
-Implementation of [Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments](https://arxiv.org/abs/1706.02275) paper using the predator-prey environment of POGEMA.
+Implementation of [Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments](https://arxiv.org/abs/1706.02275) paper using the predator-prey environment of Farama PettingZoo.
 ## Implementation
 
 At first, we define 3 predators, 1 prey, 2 obstacles, and a maximum of 25 environment steps per episode. We define the number of episodes as 2000, set $\gamma = 0.95$, and use a learning rate of $10^{-3}$. Furthermore, we define the Actor and Critic neural networks, the ReplayBuffer, and the soft-update mechanism.
